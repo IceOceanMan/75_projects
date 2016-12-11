@@ -1,0 +1,47 @@
+body h1 h2 h3 p ul{padding: 0;margin: 0;}
+img {border: none;}
+li {list-style: none}
+a {text-decoration: none}
+
+#resume{margin: 0 auto; width: 1200px;height: 1684px;}
+
+#head {width: 1200px; height:220px;}
+#photo { width: 412px; height: 220px; background: #363737; float: left; position: relative }
+#photo img { position: absolute; left: 136px; top: 52px;}
+
+#discribe{width: 788px;height: 220px;float: left; position: relative; background: #f4f4ef;}
+#discribe img{position: absolute; left: 50px; top: 80px;}
+#discribe p{position: absolute; top: 148px; left: 216px; font-size: 16px;font-weight: bold;font-family: "Adobe 黑体 Std R"}
+
+#name{width: 1200px;height: 146px;}
+#name .me{width: 412px; height: 146px; background: #433e3d;margin: 0 auto;float: left;}
+#name .top{color: #d16a67;font-family:"楷体";font-size: 42px;font-weight: bold;text-align: center;}
+#name .bottom{color: #d16a67;font-family:"楷体";font-size: 20px;text-align: center;}
+#name .top p{margin:20px;}
+
+#name .address{width: 788px; height: 146px; background: #f5f4f4; float: left;}
+#name .address li{float: left;color: #959494;font-size: 16px;}
+#name .address ul{margin: 0; padding: 0;float: left}
+#name .no1{ padding-left: 40px; padding-top:40px;float: left;}
+#name .no2{ padding-left: 36px; padding-top:20px;float: left;}
+#name .address .phone{ background: url("../img/phone.gif") no-repeat; display: block;padding: 8px 52px 8px 22px;}
+#name .address .mail{background: url("../img/mail.gif") no-repeat 0 2px; display: block;padding: 8px 52px 8px 32px;}
+#name .address .addr{background: url("../img/location.gif") no-repeat;display: block;padding: 8px 0 8px 22px;}
+#name .address .wechat{ background: url("../img/wx.gif") no-repeat; display: block;padding: 8px 52px 8px 34px}
+#name .address .qq{background: url("../img/qq.gif") no-repeat 6px 0; display: block; padding: 8px 52px 8px 42px}
+#name .address .in{background: url("../img/in.gif") no-repeat 58px 0;display: block; padding: 8px 0 8px 92px;}
+
+#left_content{width: 412px; height: 1340px; float: left;background: #363737;}
+#left_content #edu{width: 412px; height:472px; background: url("../img/education.gif") no-repeat 34px 36px;}
+#left_content #honor{width: 412px; height:472px; background: url("../img/honor.gif") no-repeat 34px 36px;}
+
+#right_content{width: 770px; height: 1232px; float: right; background:#f4f4ef;padding-top: 108px;padding-left: 18px;position: relative;}
+#right_content .base{height: 200px; background: url("../img/black_bar.gif") no-repeat;}
+#right_content .act{height: 200px; background: url("../img/black_bar.gif") no-repeat;}
+#right_content .project{height: 200px; background: url("../img/black_bar.gif") no-repeat;}
+#right_content .self{height: 200px; background: url("../img/black_bar.gif") no-repeat;}
+#right_content img{ padding-left: 324px;padding-top: 154px;}
+#right_content p{position: absolute;right: 360px;bottom: 240px;color:#959494; font-family: 宋体; font-size: 20px;}
+h2{ font-size: 20px; font-family: 宋体; color: #606060;display: block;padding-left: 224px;}
+
+
