@@ -1,0 +1,339 @@
+/********************************* WuHan 2016.12.13 *****************************/
+body,h1,h2,h3,p,ul,form,input,button,textarea,select{
+    padding: 0;
+    margin: 0;
+}
+img{
+    border:0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+input,button{
+    border-style: none;
+    outline: none;
+}
+.clear{
+    zoom: 1
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*************************样式重置******************************/
+
+
+body{
+    background: #f5f5f5;
+}
+
+
+#top{
+    background: url("../Images/top_bg.jpg") repeat-x;
+    width: 100%;
+    height: 28px;
+}
+#top_content{
+    width: 1000px;
+    margin: 0 auto;
+}
+#top_content .top_nav{
+    float: right;
+    font-size: 12px;
+}
+#top_content .top_nav li{
+    width: 78px;
+    float: right;
+    list-style-image:url("../Images/li_bg.gif");
+    margin-left: 30px;
+    line-height: 28px;
+}
+#top_content a{
+    color: darkgrey;
+}
+#top_content a:hover{
+    color: #bc2a26;
+    text-decoration: underline;
+}
+/***********************top end******************************/
+
+#wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+#logo{
+    background: #fff;
+    height: 80px;
+}
+#logo .logo_left{
+    float: left;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+#logo .logo_right{
+    float: right;
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+#logo .logo_right img{
+    vertical-align: middle;
+}
+#logo .logo_right p{
+    display: inline;
+    color: darkgrey;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+#logo .logo_right span{
+    color: #bc2a26;
+    font-size: 18px;
+}
+/****************************logo end*****************************/
+
+#navBar{
+}
+#navBar .navBar_left{
+    background: url("../Images/nav_left.jpg") no-repeat;
+    width: 10px;
+}
+#navBar .navBar_mid{
+    background: url("../Images/nav_bg.jpg") repeat-x;
+    width: 980px;
+}
+#navBar .navBar_mid .navBar_L{
+    width: 680px;
+    float: left;
+}
+#navBar .navBar_mid .navBar_R{
+    width: 300px;
+    float: left;
+}
+#navBar .navBar_right{
+    background: url("../Images/nav_right.jpg") no-repeat;
+    width: 10px;
+}
+#navBar .navBar_left,#navBar .navBar_mid,#navBar .navBar_right{
+    height: 40px;
+    float: left;
+}
+#navBar .navBar_mid li{
+    float: left;
+    line-height: 40px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+}
+#navBar .navBar_mid a{
+    color: #fff;
+}
+#navBar .navBar_mid a:hover{
+    display: block;
+    background: #9a8774;
+}
+#navBar .navBar_R .search{
+    width: 168px;
+    height: 26px;
+    margin-top: 7px;
+    display: block;
+    float: left;
+    padding-right: 22px;
+    padding-left: 10px;
+}
+#navBar .navBar_R .search_btn{
+    background: url("../Images/search.jpg") no-repeat 0 center;
+    background-color: #fff;
+    height: 26px;
+    width: 22px;
+    display: block;
+    float: left;
+    margin-top: 7px;
+    cursor: pointer;
+}
+/************************************* navBar end******************************************/
+
+#ad_pic{
+    height: 550px;
+    overflow: hidden;
+}
+/************************************ ad_pic end *****************************************/
+#info{
+    margin-top: 6px;
+}
+#info .info_L{
+    width: 340px;
+}
+#info .info_M{
+    width: 410px;
+    margin: 0 6px;
+}
+#info .info_R{
+    width: 230px;
+}
+#info .info_L,#info .info_M,#info .info_R{
+    border-right: 1px solid #B1B1B1;
+    border-left: 1px solid #B1B1B1;
+    border-bottom: 2px solid #B1B1B1;
+}
+#info .info_L,#info .info_M,#info .info_R{
+    height: 340px;
+    float: left;
+}
+/******************************************** info base end **************************************/
+#info .info_L .title,#info .info_M .title,#info .info_R .title{
+    border-bottom: 2px solid #B1B1B1;
+    border-top: 2px solid #B1B1B1;
+    height: 50px;
+}
+#info .info_L .title h2,#info .info_M .title h2,#info .info_R .title h2{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    width: 70%;
+    padding-left: 20px;
+    float: left;
+}
+#info .info_L .title a,#info .info_M .title a,#info .info_R .title a{
+    width: 18%;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#info .info_R .title a{
+    width: 28%;
+}
+#info .info_R .title h2{
+    width: 60%;
+}
+#info .info_M .title a{
+    width: 15%;
+}
+#info .info_L .title a,#info .info_L .title h2,
+#info .info_M .title a,#info .info_M .title h2,
+#info .info_R .title h2,#info .info_R .title a{
+    color: #666666;
+    line-height: 50px;
+}
+/***************************************** info_L title,info_M,info_R title end**********************************/
+
+#info .info_L .center{
+    height: 80px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+#info .info_L .center img{
+    float: left;
+    margin: 0 20px 0 6px;
+}
+#info .info_L .center h2{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    height: 26px;
+}
+#info .info_L .center p{
+    font-size: 12px;
+    padding-right: 6px;
+}
+#info .info_L .center p a{
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+}
+#info .info_L a:link,#info .info_L a:visited{
+    color: #D91C00;
+}
+#info .info_L a:hover,#info .info_L a:active {
+    color: #ff4a11;
+}
+/**************************************** info_L center end ******************************/
+
+#info .info_L .list{
+    margin-top: 40px;
+    margin-left: 6px;
+}
+#info .info_L .list li{
+    background: url("../Images/li_bg.gif") no-repeat 0 12px;
+    line-height: 30px;
+    border-bottom: 1px dotted #B1B1B1;
+    padding-left: 10px;
+}
+#info .info_L .list li a{
+    font-size: 14px;
+    font-family: 宋体;
+}
+#info .info_L .list li a:link,#info .info_L .list li a:visited{
+    color: #333333;
+}
+#info .info_L .list li a:hover,#info .info_L .list li a:active{
+    color: #D91C00;
+}
+#info .info_L .list li span{
+    float: right;
+    color: #B1B1B1;
+    margin-right: 6px;
+}
+/**************************************** info_L end******************************/
+#info .info_M .easy{
+    margin-top: 10px
+}
+#info .info_M .easy img {
+    margin-left: 6px;
+    margin-right: 10px;
+    float: left;
+}
+#info .info_M .easy h2{
+    height: 20px;
+    margin-bottom: 10px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    font-weight: bold;
+}
+#info .info_M .easy p{
+    display: block;
+    margin-top: 30px;
+    line-height: 26px;
+    font-size: 14px;
+    font-family: 宋体;
+    color: #333333;
+    padding-left: 6px;
+}
+#info .info_M a:link,#info .info_M a:visited{
+    color: #D91C00;
+}
+#info .info_M a:hover,#info .info_M a:active {
+    color: #ff4a11;
+}
+#info .info_M .easy h2 a:hover,#info .info_M .easy h2 a:active,
+#info .info_L .center h2 a:hover,#info .info_L .center h2 a:active
+{
+    color: #ff4a11;
+    box-shadow: 0 2px;
+}
+/********************************************** info_M end *******************************************/
+
+#info .info_R .video{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#info .info_R .title a:link,#info .info_R .title a:visited{
+    color: #D91C00;
+}
+#info .info_R .title a:hover,#info .info_R .title a:active {
+    color: #ff4a11;
+}
+
+
+
+
+
+
+
+
